@@ -1,0 +1,131 @@
+a{
+	color:black;
+	text-decoration:none;
+	}
+
+#genrestable{
+	width:300px;
+	border-collapse:collapse;
+	position:absolute;
+	margin-top:50px;
+	float:top;
+	margin-left:-8px;
+	}
+
+
+.genredescript{
+	font-size:12px;
+	border-collapse:collapse;
+	font-family:'Helvetica';
+	font-weight:normal;
+	text-align:left;
+	margin-top:-18px;
+	padding-left:15px;
+	}
+
+.genretitle{
+	border-collapse:collapse;
+	font-size:15px;
+	font-family:'Arvo';
+	padding-left:10px;
+	text-align:left;
+	padding-bottom:0px;
+	padding-top:16px;
+	}
+	
+#newgenrestable{
+	width:300px;
+	height:325px;
+	position:fixed;
+	margin-left:-8px;
+	background-color:#fcbb43;
+	}
+
+.genrediv{
+	margin-top:-14px;
+	height:65px;
+	text-align:left;
+	padding-left:7px;
+	padding-bottom:0px;
+	}
+
+h3{
+	font-family:'Arvo';
+	font-size:20px;
+	margin-top:14px;
+	padding-top:12px;
+	color:black;
+	font-weight:normal;
+	}
+
+h4{
+	font-family:'Arvo';
+	font-size:20px;
+	color:black;
+	
+    color: rgba(0,0,0);
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.9);
+}
+
+#hidden{
+	position:absolute;
+	float:under;
+	}
+
+#genredivcoc{
+	background-color:#666;
+	display:block;
+	}
+
+#genredivbedroom{
+	background-color:#808080;
+	display:block;
+	}
+
+#genredivcommute{
+	background-color:#999;
+	display:block;
+	}
+	
+#genredivclub{
+	background-color:#b2b2b2;
+	display:block;
+	}
+	
+#genredivstreet{
+	background-color:#ccc;
+	display:block;
+	}
+
+.currentgenre{
+	margin-top:-14px;
+	height:65px;
+	background-color:#fcbb43;
+	font-family:'Verdana',
+	font-size:14px;
+	text-align:left;
+	padding-left:7px;
+	padding-bottom:0px;
+	}
+	
+.darken {
+    padding: 0;
+}
+
+.darken div {
+    display: block;
+
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+.darken:hover div {
+	opacity:0.7;
+}
+
+.darken:hover div h3 {
+	
+}

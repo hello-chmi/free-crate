@@ -1,0 +1,190 @@
+<!doctype html>
+
+<head>
+	<title>the free crate | dig deeper</title>
+	<link rel="shortcut icon" type="image/x-icon" href="http://www.thefreecrate.com/images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="mhstylesheet.css">
+	<link type="text/css" href="skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" />
+	<!-- GOOGLE FONT UBUNTU CODE -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+
+	<link href="skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//FROM HERE------------------------------->
+var playlist  = [{
+		title:"173 (ft. Waldo)",
+		artist:"The Celestics",
+		oga:"music/street/173.mp3",
+		 
+	},{
+		title:"Heart (PKeys Quick Flip)",
+		artist:"CRNKN",
+		oga:"music/street/heart.mp3",
+		 
+	},{
+		title:"Ving Rhames (ft. Key!)",
+		artist:"Jabbar (of Lousy Human Bastards!)",
+		oga:"music/street/vingrhames.mp3",
+		 
+	},{
+		title:"Currency (ft. Benny Saint)",
+		artist:"jelacee",
+		oga:"music/street/currency.mp3",
+		 
+	},{
+		title:"How We Do Us (ft. Kyle Dion) (prod. by Jahaan Sweet)",
+		artist:"Kehlani",
+		oga:"music/street/howwedous.mp3",
+		 
+	},{
+		title:"U.G.L.Y. is My Name (Chance the Rapper Freestyle)",
+		artist:"Massappeals",
+		oga:"music/street/uglyismyname.mp3",
+		 
+	},{
+		title:"This Morning Was Funny (prod. by Mr. Carmack)",
+		artist:"PKeys",
+		oga:"music/street/thismorningwasfunny.mp3",
+		 
+	},{
+		title:"Tell Me (ft. Mayo)",
+		artist:"Tommy Jacob",
+		oga:"music/street/tellme.mp3",
+		 
+	},{
+		title:"Always Into Something (ft. Stalley) (CAPSUN Remix)",
+		artist:"Ty Dolla Sign",
+		oga:"music/street/alwaysintosomething.mp3",
+		 
+	},{
+		title:"Butterflies (Main)",
+		artist:"4i",
+		oga:"music/street/butterflies.mp3",
+		 
+	},{
+		title:"Gravity (ft. G-Eazy)",
+		artist:"The Code",
+		oga:"music/street/gravity.mp3",
+		 
+	},{
+		title:"Hoe Ten",
+		artist:"Kyle x Narc",
+		oga:"music/street/hoeten.mp3",
+		 
+	},{
+		title:"blue dream pt. 2 (ft. Prez P) (prod. by Gallon)",
+		artist:"Rell Burgundy",
+		oga:"music/street/bluedreampt2.mp3",
+		 
+	},{
+		title:"I Got Depressed Hoes (ft. Playboi Carti) (prod. by Slug Christ)",
+		artist:"Slug Christ",
+		oga:"music/street/igotdepressedhoes.mp3",
+		 
+	},{
+		title:"Damsel in Distress",
+		artist:"Small Boy Wonder",
+		oga:"music/street/damselindistress.mp3",
+		 
+	},{
+		title:"4th Quarter (prod. Key Wane)",
+		artist:"Big Sean",
+		oga:"music/street/4thquarter.mp3",
+		 
+	},{
+		title:"Ay Ay (Lindsay Lowend & Jonah Baseball Remix)",
+		artist:"GoldLink",
+		oga:"music/street/ayay.mp3",
+		 
+	},{
+		title:"FriendsMaybe (ft. ILOVEMAKONNEN)",
+		artist:"Rome Fortune",
+		oga:"music/street/friendsmaybe.mp3",
+		 
+	},{
+		title:"Hot Nigga Part 2",
+		artist:"Sean Leon",
+		oga:"music/street/hotnigga.mp3",
+		 
+	},{
+		title:"Taught Her Well (prod. by YachtMansion)",
+		artist:"YachtMansion",
+		oga:"music/street/taughtherwell.mp3",
+		 
+	},];
+			//TO HERE--------------------------------->
+			new jPlayerPlaylist({
+				jPlayer: "#jquery_jplayer_1",
+				cssSelectorAncestor: "#jp_container_1"
+			}, playlist, {
+				supplied: "oga, mp3",
+				smoothPlayBar: true,
+				keyEnabled: true,
+				autoplay: true
+			});
+		});
+	</script>
+	
+<link href="skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+
+</head>
+
+<body>
+
+
+	<body class="demo">
+	<div id="container">	
+		<div id="content_main">
+			<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+			<div id="jp_container_1" class="jp-audio">
+				<div class="jp-type-playlist">
+				
+					<div class="jp-gui jp-interface">
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+							</div>
+						</div>
+						<div class="jp-time-holder">
+							<div class="jp-current-time"></div>
+						</div>
+						<ul class="jp-toggles">
+						</ul>
+					</div>
+					
+					<div class="jp-playlist">
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div id="newgenrestable">
+
+	<a href="coc.html" class="darken"><div class="genrediv" id="genredivcoc"><h3>Cream of the Crate</h3><p class="genredescript">Editor's pick</p></div></a>
+	<a href="bedroom.html" class="darken"><div class="genrediv" id="genredivbedroom"><h3>Bedroom</h3><p class="genredescript">Chill/sexy</p></div></a>
+	<a href="commute.html" class="darken"><div class="genrediv" id="genredivcommute"><h3>Commute</h3><p class="genredescript">The sprawling, weird, and feel-good</p></div></a>
+	<a href="club.html" class="darken"><div class="genrediv" id="genredivclub"><h3>Club</h3><p class="genredescript">Songs to dance to</p></div></a>
+	<a href="street.html"><div class="currentgenre"><h3>Street</h3><p class="genredescript">Underground hip-hop & rap</p></div></a>
+
+</div>
+
+</div>
+
+</html>
